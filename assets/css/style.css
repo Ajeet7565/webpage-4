@@ -162,3 +162,230 @@ header ul li a:hover{
     font-weight: normal;
 }
 /* Fun Section End*/
+
+/* Newslatter Section Start */
+.newslatter{
+    width: 100%;
+    height: 250px;
+    text-align: center;
+ 
+}
+ .newslatter h2{
+    font-size: 25px;
+    font-weight:700;
+  
+}
+.newslatter p{
+    width: 500px;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 150px;
+    padding: 10px 10px;
+  
+
+  
+
+} 
+.newslatter div{
+    margin: 125px 0px 0px 400px;
+   
+}
+.newslatter form label{
+    display: none;
+}
+.newslatter form input{
+    width: 450px;
+    height: 40px;
+    margin-top: 50px;
+}
+.newslatter form button{
+    width: 100px;
+    height: 40px;
+    color: #000;
+    background: #fff;
+}
+/* Newslatter Section End */
+
+/* Destination Section Start */
+.destination{
+    width: 100%;
+    height:auto;
+    color: white;
+    padding: 50px 100px;
+    background: #1F152F;
+}
+.destination ul{
+    display:grid;
+    grid-gap: 25px;
+    grid-template-rows: 400px 400px;
+    grid-template-columns:repeat(4,23%);
+}
+.destination ul li{
+    color: #000;
+    list-style: none;
+    border-radius: 5px;
+    background: #fff;
+    border: 5px solid #fff;
+}
+.destination ul li .image img{
+    width: 235px;
+    height: 200px;
+}
+.destination ul li .content h4{
+    padding: 10px;
+    font-size: 17px;
+    line-height: 25px;
+}
+.destination ul li .content p{
+   font-size: 18px;
+   padding: 10px;
+}
+.destination ul li .content span{
+    color: #e89777;
+}
+
+/* Destination Section End */
+
+/* Estimate Section Start */
+.estimate{
+width: 100%;
+height:auto;
+position: relative;
+color: #fff;
+background:#664BAD;
+padding: 100px 100px;
+}
+.estimate h2{
+    font-size: 32px;
+    font-weight: 600;
+}
+.estimate h5{
+    font-size: 20px;
+    font-weight: 400;
+}
+.estimate form label{
+    display:none;
+}
+.estimate form input,
+.estimate form select{
+    width: 200px;
+    height: 40px;
+    margin-top: 20px;
+}
+.estimate form button{
+    width: 200px;
+    height: 42px;
+    background: #FB9106;
+}
+.estimate img{
+    width: 200px;
+    height: 100px;
+    bottom: 0px;
+    right: 0px;
+    position: absolute;
+}
+  
+/* Estimate Section End */
+
+/* Blog Section Start */
+.blog{
+    width: 100%;
+    height:auto;
+    padding: 50px 125px;
+}
+.blog h2{
+    text-align: center;
+    color: #000;margin-bottom: 10px;
+}
+.blog h2+p{
+    text-align: center;
+    padding: 0px 100px;
+}
+.blog img{
+    width: 150px;
+    height: 150px;
+   
+}
+.blog-content h3{
+    font-size: 18px;
+    margin-top: 15px;
+}
+.blog-content hr+p{
+  padding-top: 20px;
+}
+.blog-content{
+    margin: 10px;
+    display: flex;
+}
+.blog-content div{
+    padding: 10px;
+}
+/* Blog Section End */
+
+/* footer Section Start */
+footer{
+    width: 100%;
+    height: auto;
+    padding: 60px 100px;
+    background-color: #1F1A29;
+   
+}
+footer .topfooter
+{
+    display: flex;
+    justify-content: space-between;
+}
+footer ul li{
+    list-style: none;
+}
+footer h3{
+    margin-bottom: 10px;
+    font-size: 22px;
+    color: #6C6C74;
+}
+footer ul li a{
+    color: #6C6C74;
+    line-height: 20px;
+    text-decoration: none;
+}
+footer ul li a span{
+    color: white;
+}
+footer .International div{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .bootomfooter{
+    color: #fff;
+    text-align: center;
+   margin-top: 50px;
+   display: flex;
+}
+footer .bottommenu{
+      display: flex;
+}
+footer .bottommenu li{
+    margin-right: 5px;
+    padding: 5px 5px;
+}
+footer .bottommenu li a{
+    color: #fff;
+    font-weight:700;
+    font-size: 16px;
+}
+footer .bottommenu li a:hover{
+    color:#fa9ab7 ;
+}
+footer .social{
+    display: flex;
+}
+footer .social li a{
+    color: #fff;
+   padding: 0px 10px;
+}
+footer .social  a i{
+    border-radius: 50%;
+    background-color: #6C6C74;
+}
+/* footer Section End */
